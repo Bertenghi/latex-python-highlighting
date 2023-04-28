@@ -31,19 +31,19 @@ The package defines various colors for different elements in Python code:
 
 To include a Python code block in your LaTeX document, use the following environment:
 
-\```latex
-\begin{python}
+```latex
+begin{python}
 # Your Python code goes here
-\end{python}
-\```
+end{python}
+```
 
 ### Inline Python Code
 
 For inline Python code, use the `\pyth` command:
 
-\```latex
-\pyth{your_inline_code}
-\```
+```latex
+pyth{your_inline_code}
+```
 
 ## Customization
 
